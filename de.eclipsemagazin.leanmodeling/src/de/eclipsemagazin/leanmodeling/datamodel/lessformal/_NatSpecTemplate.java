@@ -7,7 +7,7 @@ import de.eclipsemagazin.leanmodeling.datamodel.AbstractNatSpecTemplate;
 
 public class _NatSpecTemplate extends AbstractNatSpecTemplate {
 	
-	protected SemiFomalJavaDataModelSupport semiFomalJavaDataModelSupport = new SemiFomalJavaDataModelSupport();
+	protected SemiFormalJavaDataModelSupport semiFormalJavaDataModelSupport = new SemiFormalJavaDataModelSupport();
 
 	public static void main(String[] args) throws IOException {
 		new _NatSpecTemplate().run();
@@ -20,6 +20,6 @@ public class _NatSpecTemplate extends AbstractNatSpecTemplate {
 
 	@Override
 	protected AbstractDataModelSupport getDataModelSupport() {
-		return semiFomalJavaDataModelSupport;
+		return semiFormalJavaDataModelSupport;
 	}
 }

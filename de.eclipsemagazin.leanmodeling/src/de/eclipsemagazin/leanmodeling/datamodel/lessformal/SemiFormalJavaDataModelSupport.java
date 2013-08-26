@@ -8,7 +8,7 @@ import de.eclipsemagazin.leanmodeling.datamodel.AbstractDataModelSupport;
 import de.eclipsemagazin.leanmodeling.datamodel.java.JavaClass;
 import de.eclipsemagazin.leanmodeling.datamodel.java.JavaField;
 
-public class SemiFomalJavaDataModelSupport extends AbstractDataModelSupport {
+public class SemiFormalJavaDataModelSupport extends AbstractDataModelSupport {
 
 	@TextSyntax("A #1 is a #2")
 	public JavaClass createClass(String name, List<String> description) {
